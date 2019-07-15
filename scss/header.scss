@@ -1,0 +1,18 @@
+
+@import 'mixin';
+
+header{
+	@include posflex(center,center);
+	color:#ffffff;
+	padding: 50% 0% 40% 20%;
+	margin-left: 50px;
+
+	h1{
+		font-size:50px;
+		margin-top:-50px;
+		margin-bottom:30px;
+	}
+	p{
+		line-height: 30px;
+	}
+}

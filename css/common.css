@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box; }
+
+html, body {
+  font-size: 16px;
+  font-family: 'Poppins';
+  width: 1440px; }
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  background: url("../images/bg-intro-desktop.png");
+  background-color: #ff7a7a; }
+
+/*# sourceMappingURL=common.css.map */

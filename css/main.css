@@ -1,0 +1,88 @@
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 5%;
+  color: #ffffff; }
+  main .title {
+    background-color: #6055a5;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    height: 7%;
+    margin-bottom: 30px;
+    font-size: 1em; }
+    main .title p span {
+      font-weight: bolder; }
+  main section {
+    background-color: #ffffff;
+    width: 75%;
+    height: auto;
+    border-radius: 10px; }
+    main section form {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 7% 8%; }
+      main section form .formInfo {
+        padding: 2% 0;
+        height: 100%;
+        width: 100%; }
+        main section form .formInfo input {
+          height: 100%;
+          width: 100%;
+          padding: 5% 10% 4% 8%;
+          border-radius: 5px;
+          border: 1px solid #dddddd;
+          text-weight: bolder;
+          font-size: 1em;
+          background-color: #ffffff; }
+        main section form .formInfo input::placeholder {
+          font-size: 15px;
+          font-weight: 600; }
+        main section form .formInfo .placeholderColor::-webkit-input-placeholder {
+          color: #ff7a7a; }
+        main section form .formInfo input:focus {
+          outline: none;
+          border: 1px solid #000000; }
+        main section form .formInfo input:-webkit-autofill {
+          -webkit-box-shadow: 0 0 0px 1000px white inset; }
+        main section form .formInfo .errorImg {
+          border: 2px solid #ff7a7a;
+          position: relative;
+          background: url("../images/icon-error.svg") no-repeat;
+          background-position: 95% 50%; }
+        main section form .formInfo .error {
+          display: none;
+          height: 100%;
+          width: 100%;
+          margin-top: 1%; }
+          main section form .formInfo .error p, main section form .formInfo .error #emailError {
+            font-style: italic;
+            text-align: right;
+            color: #ff7a7a; }
+      main section form .submitBtn {
+        height: 100%;
+        width: 100%;
+        background-color: #38cc8c;
+        color: #ffffff;
+        font-size: 15px;
+        text-transform: uppercase;
+        padding: 4% 0;
+        border-radius: 5px;
+        margin: 2% 0; }
+      main section form button:focus {
+        outline: none; }
+      main section form p {
+        color: #dddddd;
+        font-size: 12px; }
+        main section form p a {
+          color: #ff7a7a; }
+
+/*# sourceMappingURL=main.css.map */

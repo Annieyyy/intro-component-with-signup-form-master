@@ -1,0 +1,40 @@
+@media screen and (max-width: 375px) {
+  html,
+  body {
+    width: auto; }
+
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url("../images/bg-intro-mobile.png");
+    background-color: #ff7a7a; }
+    .wrapper header {
+      text-align: center;
+      padding: 20% 0 0 0;
+      margin: 0; }
+      .wrapper header h1 {
+        font-size: 1.5rem;
+        padding: 0 10%;
+        margin: 0; }
+      .wrapper header p {
+        padding: 5% 8%; }
+    .wrapper main {
+      align-items: center;
+      padding: 0; }
+      .wrapper main .title {
+        width: 85%;
+        font-size: 1rem;
+        padding: 5% 15%;
+        text-align: center; }
+      .wrapper main section {
+        width: 85%; }
+        .wrapper main section form {
+          box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2); }
+          .wrapper main section form p {
+            text-align: center; }
+    .wrapper footer {
+      margin-top: 2%; } }
+
+/*# sourceMappingURL=mobile.css.map */

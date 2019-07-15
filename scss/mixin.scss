@@ -1,0 +1,6 @@
+@mixin posflex($jc,$ai){
+	display: flex;
+	flex-direction:column;
+	justify-content: $jc;
+	align-items:$ai;
+}
