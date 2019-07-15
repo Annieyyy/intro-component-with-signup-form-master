@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+	<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+	<title>Intro component with sign up form
+</title>
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+<body>
+	<div class="wrapper">
+		<header>
+			<h1>Learn to code by watching others</h1>
+			<p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great, but understanding how developers think is invaluable. </p>
+		</header>
+		<main>
+			<div class="title">
+				<p><span>Try it free 7 days </span>then $20/mo. thereafter</p>
+			</div>
+			<section>
+				<form id="myform" onsubmit="return false;">
+					<div class="formInfo" id = "formInfo">
+						<input type="text" name="fName" id= "fName" placeholder= "First Name"><div id = "error" class="error">
+							<p>First Name cannot be empty</p>
+						</div>
+						<label for = "fName"></label>
+ 					</div>
+					<div class="formInfo" id = "formInfo">
+						<input type="text" id ="lName" name="lName" placeholder= "Last Name" ><div id = "error" class="error">
+							<p>Last Name cannot be empty</p>
+						</div>
+						<label for = "lName"></label>
+					</div>
+					<div class="formInfo" id = "formInfo">
+						<input type="text" name="eAddress" placeholder= "Email Address" id ="eAddress"><div id = "error" class="error">
+							<p id="emailError">Email Address cannot be empty</p>
+							<!-- <p>Looks like this is not an email</p> -->
+						</div>
+						<label for = "eAddress"></label>
+					</div>
+					<div class="formInfo" id = "formInfo">
+						<input type="text" name="password" placeholder= "Password" id ="password"><div id = "error" class="error">
+							<p>Password cannot be empty</p>
+						</div>
+						<label for = "password"></label>
+					</div>
+					<button type="submit" class = "submitBtn" id = "submitBtn" name="submit" onclick="return checkForm()" >Claim your free trial</button>
+					<p>By clicking the button, you are agreeing to our <a href="#">Terms and Services</a></p>
+				</form>
+			</section>
+		</main>
+		<footer>
+   			<p class="attribution">
+     		 Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      		Coded by <a href="#">Annie</a>.
+    		</p>
+  		</footer>
+	</div>
+	<script src = "form.js"></script>
+</body>
+</html>
